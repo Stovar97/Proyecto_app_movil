@@ -16,3 +16,6 @@ body{
 .nav li{
     color: brown;
 }
+.container{
+    grid-row: auto;
+}
