@@ -7,3 +7,12 @@ html{
 body{
     background-color: lightgreen;
 }
+.nav{
+    height: 35px;
+    width: 100%;
+    float:inline;
+
+}
+.nav li{
+    color: brown;
+}
