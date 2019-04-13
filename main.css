@@ -20,3 +20,6 @@ body{
 .container{
     grid-row: auto;
 }
+.footer{
+    border: 1px solid black;
+}
