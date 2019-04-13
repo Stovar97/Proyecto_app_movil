@@ -20,6 +20,9 @@ body{
 .container{
     grid-row: auto;
 }
-.footer{
+#footer{
     border: 1px solid black;
+    background-color: aqua;
+    height: 55px;
+    width: 100%;
 }
