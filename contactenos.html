@@ -11,9 +11,34 @@
     <title>Vende Tu Negocio</title>
   </head>
   <body>
+
+      <div class header>
+        </div>
+        <br>  
+        <div class nav>
+           <div class="container">          
+               <ul class="nav nav-pills">
+                   <li class="nav-item">
+                     <a class="nav-link active" href="#!">Inicio</a>
+                   </li>
+                   <li class="nav-item">
+                     <a class="nav-link" href="contactenos.html">Quienes Somos</a>
+                   </li>  
+                   <li class="nav-item">
+                      <a class="nav-link" href="contactenos.html">Registrarse</a>
+                   </li>
+                   <li class="nav-item">
+                       <a class="nav-link" href="contactenos.html">Contactenos</a>
+                    </li>                            
+               </ul>
+               </div>  
+               </div>
+         <br>    
+          <br>
+          <br>  
     <style>
       body {
-        background-color: rgb(36, 139, 173);
+        background-color: rgb(191, 210, 216);
       }
       
       h1 {
@@ -26,15 +51,39 @@
         font-size: 20px;
       }
       </style>
-      </head>
-      <body>
-      
-      <h1>VENDE O PUBLICA TU NEGOCIO</h1>
-      <p>Si tienes un local o un negocio y lo quieres vender?, somos tu mejor solucion, lo publicas en nuestro portal y te lo ayudaremos a vender. 
-        Registrate con nosotros, tenemos 120 años de experiencia, logrando cerrar grandes negocios 
-      </p>
-      
-      </body>
+    
+    <h2>Responsive Contact Section</h2>
+    <p>Resize the browser window to see the effect.</p>
+    
+    <div class="container">
+      <div style="text-align:center">
+        <h2>Contact Us</h2>
+        <p>Swing by for a cup of coffee, or leave us a message:</p>
+      </div>
+      <div class="row">
+        <div class="column">
+          <img src="/w3images/map.jpg" style="width:100%">
+        </div>
+        <div class="column">
+          <form action="/action_page.php">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            <label for="country">Country</label>
+            <select id="country" name="country">
+              <option value="australia">Australia</option>
+              <option value="canada">Canada</option>
+              <option value="usa">USA</option>
+            </select>
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+            <input type="submit" value="Submit">
+          </form>
+        </div>
+      </div>
+    </div>
+    
 
 
 
