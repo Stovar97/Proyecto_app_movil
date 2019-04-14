@@ -6,7 +6,7 @@ header{
  border: 1px solid grey;
 }
 body{
-    background-color:rgb(250, 250, 250);
+    background-color:rgb(252, 250, 250);
     
 }
 .nav{
@@ -46,15 +46,14 @@ h2{
 
 .logo {
     float: left;   
-    position: absolute;
+    position: fixed;
     clear: both;
+    padding-top: 13px;
+    
     
    }
 .menu {
     position: relative !important;
-    padding-left: 300px !important;
-    padding-top: 50px !important;
-}
-.carousel slide{
-    position: relative !important;
+    padding-left: 280px !important;
+    padding-top: 100px !important;
 }
