@@ -7,7 +7,7 @@ header{
 }
 body{
     background-color:rgb(250, 250, 250);
-    position: absolute;
+    
 }
 .nav{
     height: 35px;
@@ -44,19 +44,20 @@ h2{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .logo{
- display:inline-block;
+ float:left;
  padding-bottom: 20px;
  padding-top: 15px;
  padding-left:25px;
- position: fixed;
- clear: left;  
+ position: none;
+ 
 }
 
 .menu{
     float: left;
-    padding-left: 25px;
+    padding-left: 250px;
     padding-bottom: 20px;
-    position: fixed;
+    padding-top: 70px;
+    position: absolute;
 
 }
 
