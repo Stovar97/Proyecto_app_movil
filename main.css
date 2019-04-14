@@ -45,10 +45,12 @@ h2{
 }
 
 .logo {
-    float: left;   
+      
     position: fixed;
     clear: both;
     padding-top: 13px;
+    padding-left: 25px;
+    display: list-item;
     
     
    }
