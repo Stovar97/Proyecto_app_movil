@@ -46,11 +46,11 @@ h2{
 
 .logo {
       
-    position:none;
+    position:fixed;
     clear: both;
     padding-top: 13px;
-    padding-left: 30px;
-    display: list-item;
+    padding-left: 40px;
+    display: block;
     
     
    }
