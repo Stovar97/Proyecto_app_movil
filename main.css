@@ -43,21 +43,18 @@ h2{
     font-size: 2em;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.logo{
- float:left;
- padding-bottom: 20px;
- padding-top: 15px;
- padding-left:25px;
- position: none;
- 
-}
 
-.menu{
-    float: left;
-    padding-left: 250px;
-    padding-bottom: 20px;
-    padding-top: 70px;
+.logo {
+    float: left;   
     position: absolute;
-
+    clear: both;
+    
+   }
+.menu {
+    position: relative !important;
+    padding-left: 300px !important;
+    padding-top: 50px !important;
 }
-
+.carousel slide{
+    position: relative !important;
+}
