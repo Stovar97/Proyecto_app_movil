@@ -178,3 +178,10 @@ h2{
     color: white;
     background-color: #3b5998;
   }
+  .navbar navbar-expand-lg navbar-dark bg-dark static-top {
+
+    background-color: white !important;
+  }
+  .container{
+      background-color: white !important;
+  }
